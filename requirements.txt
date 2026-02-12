@@ -1,0 +1,28 @@
+# Requirements pour le fine-tuning de LLaMA avec LoRA
+# Installation : pip install -r requirements.txt
+
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.35.0
+datasets>=2.14.0
+accelerate>=0.24.0
+
+# LoRA et quantification
+peft>=0.7.0
+bitsandbytes>=0.41.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Optional: pour de meilleures performances
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Optional: pour le monitoring (décommenter si besoin)
+# tensorboard>=2.14.0
+# wandb>=0.15.0
